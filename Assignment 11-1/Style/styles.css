@@ -1,0 +1,104 @@
+/* Start of CSS */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Nav */
+ul li {
+    line-height: 1.6em;
+    list-style-type: none;
+}
+header img, h2 {
+    margin-left: 25%;
+}
+.wrapper {
+    width: 1000px;
+    background-color: lightgreen;
+    margin: 40px;
+    border: 2px solid black;
+}
+.left {
+    margin-top: 300px;
+    float: left;
+    width: 150px;
+    height: 1680px;
+    
+}
+ul li a {
+    text-decoration: none;
+    padding-left: 10px;
+}
+ul li a:hover {
+    color: red;
+}
+blockquote {
+    margin: 2px;
+}
+/* When a link is visted change the color */
+ul li a:visited {
+    color: darkorange;
+}
+body {
+    background-color: lightskyblue;
+    font-size: 1em;
+    padding: 0px;
+    margin: 0px;
+}
+.news-of-the-week h3 {
+    color: purple;
+    line-height: 1.1vh;
+}
+h1{
+    color: purple;
+    font: bold 25px Helvetica;
+    font-size: 1.5em;
+    font-style: italic;
+    letter-spacing: .4em;
+    text-align: center;
+}
+#news-page blockquote, p {
+    letter-spacing: .1vh;
+    line-height: 2.2vh;
+    font-size: medium;
+}
+h2 {
+    color: purple;
+    font: bold 25px Helvetica;
+    font-size: 1.2em;
+    font-style: italic;
+}
+.sports-content h3 {
+    color: purple;
+    line-height: 1.1vh;
+}
+main {
+    margin-left: 180px;
+    clear: right;
+    width: 700px;
+    height: 1800px;
+}
+#about-content {
+    letter-spacing: .1vh;
+    line-height: 2.2vh;
+    font-size: medium;
+}
+img {
+    border: 3px solid black;
+}
+footer {
+    clear: both;
+}
+
+#about img {
+margin-left: 20%;
+margin-top: 5%;
+}
+.about h3{
+    color: purple;
+    line-height: 1.1vh;
+}
+
+#sports-page blockquote, p{
+    letter-spacing: .1vh;
+    line-height: 2.2vh;
+    font-size: medium;
+}

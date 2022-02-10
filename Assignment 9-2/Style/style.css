@@ -1,0 +1,53 @@
+ /* This is the css */
+* {
+    font-family: Arial, Helvetica, sans-serif;  /* Setting the fonts */
+}
+ /* body */
+body {
+    padding-left: 15px;
+    background-color: antiquewhite;
+} 
+ /* h2 */
+h2 {
+    color: blue;
+    text-align: center;
+}
+
+#home img {
+    margin-left: 35%;
+}
+nav ul li {
+    display: inline-block;  /* Making the display inline intead of block */
+    padding-left: 10px;
+
+}
+#attractions h3 {
+    color: blue;
+} 
+.navigation {
+    background-color: rgba(105, 105, 206, 0.338);
+    font-size: larger;
+} 
+h1 {
+     /* Centering the text (h1) */
+    text-align: center;
+}
+header img {
+    margin-left: 40%;
+} 
+aside p {
+    font-size: small;
+}
+nav ul li a {
+    color: blueviolet;
+}
+nav ul li a:hover{
+    color: red;
+}
+nav ul li a:visited {
+    color: darkslateblue;
+    }
+
+.departments {
+   text-align: center;
+}

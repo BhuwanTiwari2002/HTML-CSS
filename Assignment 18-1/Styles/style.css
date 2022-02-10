@@ -1,0 +1,79 @@
+* {
+    font-family: Verdana, Tahoma, sans-serif;
+}
+/* Wrapper */
+
+.wrapper {
+    width: 1000px;
+    border: 3px solid rgb(41, 39, 43);
+    border-radius: 15px;
+    margin: 50px;
+    background-color: lightcyan;
+}
+body {
+    background-color: lightcoral;
+    color: black;
+}
+/* Nav*/
+
+nav a {
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: 50px;
+    color: darkblue;
+    line-height: 1.9em;
+}
+h1 {
+    line-height: 1.2em;
+    letter-spacing: .3em;
+}
+/* Nav hover*/
+
+nav a:hover {
+    font-size: 30px;
+    text-decoration: underline;
+    color: red;
+}
+header img {
+    border: 3px solid black;
+    border-radius: 20px;
+    margin: 40px;
+}
+/* table */
+
+#table {
+    margin: 20px;
+}
+table {
+    border-collapse: collapse;
+}
+th,td {
+    border: 2px solid green;
+    width: 100px;
+}
+td {
+    height: 50px;
+    text-align: right;
+    padding-right: 10px;
+    vertical-align: top;
+    padding-top: 5px;
+}
+caption {
+    color: red;
+    font-size: x-large;
+}
+.fancydates {
+    background-color: lightcoral;
+    color: white;
+}
+#content {
+    padding-left: 40px;
+}
+.footer {
+    padding-left: 20px;
+}
+#content img {
+    border: 3px solid black;
+    border-radius: 20px;
+
+}

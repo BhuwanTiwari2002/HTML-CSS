@@ -1,0 +1,116 @@
+* {
+    /* Setting the font*/
+
+    font-family: Verdana, Tahoma, sans-serif;
+}
+header img {
+    width: 100%;
+}
+body {
+    background-color: #ffb001;
+    font-size: 1em;
+    color: black;
+}
+
+/* All code below are to style the pages */
+
+nav {
+    height: 45px;
+    padding-top: 15px;
+    margin-bottom: 30px;
+    border-bottom: 5px solid #019992;
+}
+nav a {
+    font-size: 24px;
+    text-decoration: none;
+    margin-left: 110px;
+    color: darkblue;
+    line-height: 1.6px;
+}
+nav a:hover {
+    font-size: 24px;
+    text-decoration: underline;
+    margin-left: 110px;
+    color: red;
+
+}
+
+footer {
+    height: 50px;
+    padding-left: 110px;
+    margin-top: 50px;
+    color: white;
+    background-color: #01094f;
+}
+footer p {
+    padding-top: 15px;
+    margin: 0px;
+    clear: both;
+}
+main {
+    margin-top: 20px;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+#page {
+    max-width: 960px;
+    margin: 0px auto;
+    border: 1px solid darkblue;
+    background-color: #44EE77;
+}
+
+.textboxes-1, #checkbox {
+    float: left;
+    width: 48%;
+    text-align: right;
+    padding-right: 25px;
+    border-right: 1px dashed darkblue;
+} 
+.textboxes-2, #radio {
+    float: right;
+    width: 45%;
+    text-align: right;
+    padding-right: 10px;
+    
+}
+#radio {
+    text-align: left;
+}
+.left {
+    width: 350px;
+    float: left;
+}
+.right {
+    float: right;
+    width: 350px;
+}
+.wrapper {
+ height: 800px;
+}
+#submit {
+    padding: 9px 25px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+} 
+#submit:hover {
+    padding: 9px 25px;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+} 
+
+h1 {
+    font-size: 1.65em;
+    letter-spacing: .35em;
+    font-style: italic;
+}
+h2 {
+    font-size: 1.3em;
+    letter-spacing: .35em;
+    font-style: italic;
+}

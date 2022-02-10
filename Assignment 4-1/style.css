@@ -1,0 +1,25 @@
+* {
+    background:#eeffe8
+    /* Changing the background to light green */
+}
+.wrapper {
+    font-family: Verdana;
+    padding: 30px;
+    margin: 0px;
+    /* Changing the font, padding and margin for the body */
+}
+
+a[href] {
+    color: darkviolet;
+    /* Changing the link color to darkviolet */
+}
+
+
+a[href]:hover {
+    color: red;
+    /* When hovering over the link, color will change to red */
+}
+mark {
+    color: darkorange;
+    /* Changing the mark color to darkorange */
+}

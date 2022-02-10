@@ -1,0 +1,73 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+     /* Setting the font */
+}
+
+body {
+     /* Background color  */
+    background-color: beige;
+}
+header nav ul {
+    display: inline-flex;
+    list-style-type: none;
+    padding: 0px;
+    margin-left: 41%;
+    line-height: 1.6;
+     /* Designing the Nav */
+}
+nav ul li {
+    padding-left: 5%;
+    color: crimson;
+}
+nav ul li a:hover{
+    color: darkorange;
+    text-decoration: underline;
+} 
+h1 {
+     /* Designing the h1 */
+    font-size: 1.5em;
+    letter-spacing: .4em;
+    font-style: italic;
+    text-align: center;
+}
+h2 {
+    font-size: 1.2em;
+    letter-spacing: .4em;
+    font-style: italic;
+    text-align: center;
+    color: blue;
+}
+header img {
+    margin-left: 39%;
+}
+img {
+    margin-left: 35%;
+}
+p {
+    text-align: center;
+}
+li {
+    list-style-type: none;    
+}
+.Hean-Meat-Design {
+     /* banner with the text HeanMeat */
+    border: black solid 2px;
+    background-color: darkslategray;
+    color: white;
+}
+#speicals-page ol li {
+    margin-left: 30%;
+}
+.home h3 {
+    text-align: center;
+}
+#speicals-page h3 {
+    margin-left: 32%;
+}
+#speicals-page p {
+    width: 500px;
+    margin-left: 30%;
+}
+#about p {
+    margin-left: 2%;
+}
